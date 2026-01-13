@@ -21,9 +21,9 @@ class Category(str, Enum):
 
 
 class LLMModel(str, Enum):
+    GEMINI_20_FLASH = "gemini-2.0-flash"
     GEMINI_15_FLASH = "gemini-1.5-flash"
     GEMINI_15_PRO = "gemini-1.5-pro"
-    GEMINI_10_PRO = "gemini-1.0-pro"
 
 
 # 入力項目定義

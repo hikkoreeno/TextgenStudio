@@ -61,7 +61,7 @@ async def insert_default_templates(db):
             "name": "SEO記事生成ツール",
             "description": "SEOに最適化された記事を生成します",
             "category": "記事作成",
-            "llm_model": "gemini-1.5-flash",
+            "llm_model": "gemini-2.0-flash",
             "system_prompt": "あなたはSEOに精通したプロのWebライターです。検索エンジンに最適化され、読者にとって価値のある記事を作成してください。",
             "user_prompt_template": """以下の条件でSEO記事を作成してください。
 
@@ -96,7 +96,7 @@ async def insert_default_templates(db):
             "name": "記事リライトツール",
             "description": "既存の記事をリライトして新しい記事を生成します",
             "category": "リライト",
-            "llm_model": "gemini-1.5-flash",
+            "llm_model": "gemini-2.0-flash",
             "system_prompt": "あなたはプロの編集者です。与えられた文章を、オリジナリティを保ちながら読みやすくリライトしてください。",
             "user_prompt_template": """以下の文章をリライトしてください。
 
@@ -127,7 +127,7 @@ async def insert_default_templates(db):
             "name": "YouTube台本生成ツール",
             "description": "YouTube動画用の台本を生成します",
             "category": "台本",
-            "llm_model": "gemini-1.5-flash",
+            "llm_model": "gemini-2.0-flash",
             "system_prompt": "あなたはYouTubeクリエイターのための台本ライターです。視聴者を引き付け、最後まで見てもらえる魅力的な台本を作成してください。",
             "user_prompt_template": """以下の条件でYouTube動画の台本を作成してください。
 
@@ -162,7 +162,7 @@ async def insert_default_templates(db):
             "name": "SNS投稿文生成ツール",
             "description": "Twitter/Instagram/Facebook用の投稿文を生成します",
             "category": "SNS",
-            "llm_model": "gemini-1.5-flash",
+            "llm_model": "gemini-2.0-flash",
             "system_prompt": "あなたはSNSマーケティングの専門家です。エンゲージメントを高める魅力的な投稿文を作成してください。",
             "user_prompt_template": """以下の条件でSNS投稿文を作成してください。
 
@@ -197,7 +197,7 @@ async def insert_default_templates(db):
             "name": "メール文章生成ツール",
             "description": "ビジネスメールの文章を生成します",
             "category": "メール",
-            "llm_model": "gemini-1.5-flash",
+            "llm_model": "gemini-2.0-flash",
             "system_prompt": "あなたはビジネスコミュニケーションの専門家です。適切な敬語と構成で、目的を達成するメール文章を作成してください。",
             "user_prompt_template": """以下の条件でメール文章を作成してください。
 

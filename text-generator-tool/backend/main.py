@@ -31,7 +31,7 @@ class ToolCreate(BaseModel):
     name: str
     description: str
     category: str
-    llm_model: str = "gemini-1.5-flash"
+    llm_model: str = "gemini-2.0-flash"
     system_prompt: str
     user_prompt_template: str
     output_format: Optional[str] = None

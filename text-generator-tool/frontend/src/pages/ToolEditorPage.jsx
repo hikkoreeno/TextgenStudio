@@ -13,9 +13,9 @@ import {
 
 const categories = ['記事作成', 'リライト', '台本', 'SNS', 'メール', 'その他']
 const llmModels = [
+  { value: 'gemini-2.0-flash', label: 'Gemini 2.0 Flash' },
   { value: 'gemini-1.5-flash', label: 'Gemini 1.5 Flash' },
   { value: 'gemini-1.5-pro', label: 'Gemini 1.5 Pro' },
-  { value: 'gemini-1.0-pro', label: 'Gemini 1.0 Pro' },
 ]
 const inputTypes = [
   { value: 'text_short', label: '短文テキスト' },
@@ -34,7 +34,7 @@ export default function ToolEditorPage() {
     name: '',
     description: '',
     category: '記事作成',
-    llm_model: 'gemini-1.5-flash',
+    llm_model: 'gemini-2.0-flash',
     system_prompt: '',
     user_prompt_template: '',
     output_format: '',

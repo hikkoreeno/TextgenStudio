@@ -31,7 +31,7 @@ class LLMService:
         system_prompt: str,
         user_prompt_template: str,
         inputs: dict,
-        model: str = "gemini-1.5-flash",
+        model: str = "gemini-2.0-flash",
         output_format: Optional[str] = None
     ) -> str:
         """テキストを生成"""
